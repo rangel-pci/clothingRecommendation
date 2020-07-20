@@ -1,0 +1,132 @@
+[
+	{	
+		"id": 0,
+		"image":"./assets/images/camisa_fit.jpg",
+		"name":"Camisa Slim Fit",
+		"gender":"masculino",
+		"material":"seda",
+		"color":"azul",
+		"origin":"nacional",
+		"type":"superior"
+	},
+	{
+		"id": 1,
+		"image":"./assets/images/camisa_floral.jpg",
+		"name":"Camisa Floral Tov",
+		"gender":"masculino",
+		"material":"seda",
+		"color":"branco",
+		"origin":"internacional",
+		"type":"superior"
+	},	
+	{
+		"id": 2,
+		"image":"./assets/images/calça_warrior.jpg",
+		"name":"Calsa Jeans Skinny Warrior",
+		"gender":"masculino",
+		"material":"algodão",
+		"color":"preto",
+		"origin":"nacional",
+		"type":"inferior"
+	},
+	{
+		"id": 3,
+		"image":"./assets/images/calça_caiena.jpg",
+		"name":"Calsa Jeans Caiena",
+		"gender":"masculino",
+		"material":"algodão",
+		"color":"azul",
+		"origin":"nacional",
+		"type":"inferior"
+	},
+	{
+		"id": 4,
+		"image":"./assets/images/calça_destroyed2.jpg",
+		"name":"Calsa Jeans Skinny Destroyed",
+		"gender":"masculino",
+		"material":"algodão",
+		"color":"azul",
+		"origin":"nacional",
+		"type":"inferior"
+	},
+	{
+		"id": 5,
+		"image":"./assets/images/camisa_polo.jpg",
+		"name":"Camisa Polo",
+		"gender":"masculino",
+		"material":"algodão",
+		"color":"preto",
+		"origin":"nacional",
+		"type":"superior"
+	},
+	{
+		"id": 6,
+		"image":"./assets/images/vestido_munich.jpg",
+		"name":"Vestido Camisão Munich",
+		"gender":"feminino",
+		"material":"algodão",
+		"color":"beige",
+		"origin":"internacional",
+		"type":"superior"
+	},
+	{
+		"id": 7,
+		"image":"./assets/images/camisa_classic.jpg",
+		"name":"Camisa Polo Classic",
+		"gender":"feminino",
+		"material":"algodão",
+		"color":"preto",
+		"origin":"nacional",
+		"type":"superior"
+	},
+	{
+		"id": 8,
+		"image":"./assets/images/calça_skinny.jpg",
+		"name":"Calça Jeans Skinny",
+		"gender":"feminino",
+		"material":"algodão",
+		"color":"preto",
+		"origin":"nacional",
+		"type":"inferior"
+	},
+	{
+		"id": 9,
+		"image":"./assets/images/calça_band.jpg",
+		"name":"Calça Slide Band",
+		"gender":"masculino",
+		"material":"seda",
+		"color":"preto",
+		"origin":"nacional",
+		"type":"inferior"
+	},
+	{
+		"id": 10,
+		"image":"./assets/images/camisa_royal.jpg",
+		"name":"Camisa Polo Royal",
+		"gender":"masculino",
+		"material":"algodão",
+		"color":"azul",
+		"origin":"nacional",
+		"type":"superior"
+	},
+	{
+		"id": 11,
+		"image":"./assets/images/camiseta_alkary.jpg",
+		"name":"Camiseta Alkary Manga 3/4",
+		"gender":"masculino",
+		"material":"algodão",
+		"color":"branco",
+		"origin":"nacional",
+		"type":"superior"
+	},
+	{
+		"id": 12,
+		"image":"./assets/images/camisa_xadrez.jpg",
+		"name":"Camisa Xadrez Manga Longa",
+		"gender":"feminino",
+		"material":"algodão",
+		"color":"branco",
+		"origin":"nacional",
+		"type":"superior"
+	}
+]

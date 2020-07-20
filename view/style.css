@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	color: #4f4f4f;
+}
+
+body{
+	background: #f1f1f1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title{
+	text-align: center;
+	margin: 10px 0;
+}
+
+.clean{
+	background: #fff;
+
+	padding: 10px 50px;
+
+	box-shadow: 2px 2px 5px #ddd;
+
+	text-decoration: none;
+	border: 2px solid transparent;
+}
+
+.container{
+	max-width: 90%;
+	margin: 20px auto;
+}
+
+#clothes{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.clothe-card{
+	font-family: sans-serif;
+
+	width: 100%;
+	max-width: 200px;
+	padding: 20px;
+	margin: 10px 10px;
+
+	background: #fff;
+
+	border-radius: 5px;
+	border: 1px solid lightblue;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	box-shadow: 5px 5px 5px #ddd;
+
+	position: relative;
+}
+
+.clothe-card img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.clothe-card h5{
+	text-align: center;
+	font-size: 16px;
+
+	padding: 10px;
+}
+
+.clothe-card a{
+	width: 100%;
+
+	border: 2px solid #f1f1f1;
+
+	background: #f1f1f1;
+	padding: 10px 0;
+
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover{
+	border-color: lightblue;
+}
+a{
+	margin: 5px 0;
+}
+
+.clothe-card .info{
+	opacity: 0;
+
+	position: absolute;
+	top: 10px;
+	left: 0;
+
+	z-index: 1;
+
+	background: #000;
+
+	width: 100%;
+	padding: 20px;
+}
+
+.clothe-card .info p{
+	color: #fff;
+}
+
+
+.clothe-card:hover .info{
+	opacity: 1;
+
+	transition: 0.5s all;
+}
+
+.purchased{
+	background: lightgreen;
+	text-align: center;
+
+	width: 100%;
+	padding: 10px 0;
+
+	color: #fff;
+}
+
+/* Compra efetuada */
+
+#final .clothe-card{
+	margin: 5px auto;
+	border: 1px solid lightgreen;
+
+	box-shadow: 0 0 5px lightgreen;
+}
+
+#final{
+	text-align: center;
+}
+
+#final a{
+	display: inline-block;
+	margin-top: 10px;
+
+	border: 2px solid #f1f1f1;
+
+	background: #ddd;
+	padding: 10px 50px;
+
+	text-align: center;
+	text-decoration: none;
+}
+
+#recommendation{
+	width: 90%;
+
+	display: flex;
+	justify-content: center;
+
+	margin-bottom: 20px;
+}
